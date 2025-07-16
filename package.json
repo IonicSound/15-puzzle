@@ -1,14 +1,17 @@
 {
-  "name": "15puzzle",
+  "name": "15-puzzle-supersonic",
   "version": "1.0.0",
-  "description": "",
+  "description": "a mod for speed",
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --public-url ./"
   },
   "author": "Shubham",
-  "license": "ISC",
+  "contributors": [
+    "IonicSound"
+  ],
+  "license": "MIT",
   "dependencies": {
     "parcel-bundler": "^1.10.3",
     "react": "^16.7.0-alpha.2",
