@@ -33,7 +33,8 @@
 
 1. Change to preferred directory and ```git clone git@github.com:IonicSound/15-puzzle.git```
 2. ```cd 15-puzzle```
-3. ```npm start```; you may need to downgrade to node 12 instead of the most updated version
+3. ```npm install```; if this fails, append ```--legacy-peer-deps```
+3. ```npm start```; you may need to **downgrade to node 12** instead of the most updated version
 
 <h3 align="center">or</h3>
 
