@@ -2,14 +2,16 @@ import React, { Component } from 'react';
 
 import { Footer, Profile, Icon } from '@Elements';
 
-const Details = ({ name, githubURL, linkedinURL, twitterURL, projectURL }) => (
+const Details = ({ name, modder, modderURL, githubURL, linkedinURL, twitterURL, projectURL }) => (
   <Footer>
     <div className="text">
       Made with <span style={{ color: 'red' }}>❤</span> by {name}
+      <br/>
+      Modifications by <a href={modderURL} target="_blank">{modder}</a>
       <br />
-      This project is open source, visit{' '}
+      This mod is a fork; visit {' '}
       <a href={projectURL} target="_blank">
-        the repo.
+        the original repo.
       </a>
     </div>
     <div className="logos">

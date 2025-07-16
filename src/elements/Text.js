@@ -29,9 +29,11 @@ export const HeaderText = styled.div`
   padding-left: 7px;
   margin-left: 2px;
   text-align: center;
+  line-height: 1;
   span {
     font-size: 85px;
   }
+  padding-bottom: 45px;
 
   background: url(${Waves}) repeat 0 0;
   width: 100%;
