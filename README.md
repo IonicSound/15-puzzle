@@ -9,7 +9,7 @@
 <p align="center">
 </p>
 
-> This is a classic _15_-_puzzle_ with enhanced timing.
+> This is a mod of Shubham Singh's implementation of the classic _15 puzzle_. It focuses on enhanced timing to improve the experience for fast, competitive players.
 
 <h1 align="center">
 <img src="./screenshots/15-puzzle-supersonic.png" alt="Supersonic Mod" width="450px"/>
@@ -19,9 +19,14 @@
 
 ## Features
 
-- Precise timing: for speedsolvers, every hundredth of a second matters and is captured.
-- Accurate timing: rather than relying on increments that drift, this mod records the actual time elapsed.
-- Fuller scorekeeping: after a solve, both the move count and time are easily visible, so the two metrics can be recorded together.
+### Precise timing
+For speedsolvers, every hundredth of a second matters and is captured.
+
+### Accurate timing
+Rather than relying on increments that drift, this mod records the actual time elapsed, giving players an honest representation of their skill.
+
+### Fuller scorekeeping
+After a solve, both the move count and time are easily visible, so the two metrics can be recorded together.
 
 <h1 align="center">
 <img src="./screenshots/example-run.png" alt="Supersonic Mod Completed Run" width="450px"/>
@@ -40,9 +45,11 @@
 
 Play the game on a live demo (coming soon!)
 
+> Arrow keys are recommended for speed. Clicking or tapping tends to be slower.
 
 
-## License [![License](https://img.shields.io/github/license/hyperium/hyper.svg)](https://github.com/imshubhamsingh/15-puzzle/blob/master/LICENSE)
+
+## License [![License](https://img.shields.io/github/license/hyperium/hyper.svg)](./LICENSE)
 
 Copyright (c) 2018 Shubham Singh
 
