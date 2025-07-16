@@ -318,6 +318,9 @@ export const ModalContainer = styled.div`
     font-size: 37px;
     color: ${color.backgroundColor};
   }
+  .text-2 {
+    padding-bottom: 24px;
+  }
 `;
 
 export const Footer = styled.div`

@@ -46,8 +46,11 @@ export default class Game extends Component {
         <Modal on={this.props.gameState === gameState.GAME_OVER}>
           <ModalContainer>
             <div className="text-1">Excellent!</div>
-            <div>
+            <div className="text-2">
               It took you <b>{this.props.moves} moves</b>
+              <br/>
+              to do the puzzle in <b>{this.props.seconds.toFixed(2)} seconds</b>.
+              <br></br>
             </div>
             <div>
               <Button
