@@ -6,7 +6,7 @@ const Score = ({ moves, seconds }) => {
     <ScoreContainer>
       <div className="time">
         <div className="score-title">Time</div>
-        <div className="time-container">{seconds}s</div>
+        <div className="time-container">{seconds.toFixed(2)}s</div>
       </div>
       <div className="move">
         <div className="score-title">Moves</div>

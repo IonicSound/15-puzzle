@@ -79,6 +79,7 @@ class GameFactory extends Component {
 
   state = this.defaultState(NEW_GAME, 1);
 
+  startTime = null;
   timerId = null;
 
   reset = () => {
@@ -134,14 +135,15 @@ class GameFactory extends Component {
 
   addTimer = () => {
     this.setState(prevState => {
-      return { seconds: prevState.seconds + 1 };
+      return { seconds: (Date.now() - this.startTime) / 1000 };
     });
   };
 
   setTimer = () => {
+    this.startTime = Date.now();
     this.timerId = setInterval(() => {
       this.addTimer();
-    }, 1000);
+    }, 10);
   };
 
   clickMove = from => {
