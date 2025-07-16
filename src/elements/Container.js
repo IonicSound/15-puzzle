@@ -337,7 +337,7 @@ export const Footer = styled.div`
     font-family: 'Clear Sans', Arial, sans-serif;
     text-align: center;
     bottom: 0px;
-    margin: 11px auto 0px;
+    margin: 85px auto 0px;
     a {
       text-decoration: none;
       color: white;
